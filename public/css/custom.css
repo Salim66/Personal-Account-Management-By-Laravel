@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-barnd__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.navbar-brand span {
+    font-size: 12px;
+    margin-top: 0px;
+    line-height: 0;
+}
+
+.navbar-brand span {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.home-section {
+    margin: 70px 0;
+    text-align: center;
+}
+
+.home-section__assets {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-section__assets span,
+.home-section__profit span {
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+
+.home-section__balance {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.home-section__profit {
+    display: flex;
+    justify-content: center;
+}
+
+.home--profit {
+    width: 290px;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+.income-title___add {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 223);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin-left: -16px;
+}
+
+.input-daterange {
+    display: flex;
+}
+
+.profit-section__page {
+    margin-bottom: 100px;
+}
